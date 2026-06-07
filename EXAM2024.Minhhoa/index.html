@@ -26,55 +26,55 @@
 
                 <!-- DANH SÁCH TASK -->
                 <div id="taskList">
-<div class="task-item d-flex align-items-center gap-3">
-    <div class="task-label" style="min-width:140px">Task
-        <div class="task-name fw-bold" style="color: black;">Go to gym</div>
-    </div>
-        
-    <div class="task-label" style="min-width:80px">Priority
-        <div class="task-name" style ="color: red;">High</div>
-    </div>
+                    <div class="task-item d-flex align-items-center gap-3">
+                        <div class="task-label" style="min-width:140px">Task
+                            <div class="task-name fw-bold" style="color: black;">Go to gym</div>
+                        </div>
 
-    <span class="badge-status me-auto">To do</span>
+                        <div class="task-label" style="min-width:80px">Priority
+                            <div class="task-name" style="color: red;">High</div>
+                        </div>
 
-    <button class="btn btn-warning" title="Edit">Sửa</button>
-    <button class="btn btn-danger" title="Delete">Xóa</button>
-</div>
-<div class="task-item d-flex align-items-center gap-3">
-    <div class="task-label" style="min-width:140px">Task
-        <div class="task-name fw-bold" style="color: black;">Read a book</div>
-    </div>
-        
-    <div class="task-label" style="min-width:80px">Priority
-        <div class="task-name" style ="color: green;">Low</div>
-    </div>
+                        <span class="badge-status me-auto">To do</span>
 
-    <span class="badge-status me-auto">Done</span>
+                        <button class="btn btn-warning" title="Edit">Sửa</button>
+                        <button class="btn btn-danger" title="Delete">Xóa</button>
+                    </div>
+                    <div class="task-item d-flex align-items-center gap-3">
+                        <div class="task-label" style="min-width:140px">Task
+                            <div class="task-name fw-bold" style="color: black;">Read a book</div>
+                        </div>
 
-    <button class="btn btn-warning" title="Edit">Sửa</button>
-    <button class="btn btn-danger" title="Delete">Xóa</button>
-</div>
-<div class="task-item d-flex align-items-center gap-3">
-    <div class="task-label" style="min-width:140px">Task
-        <div class="task-name fw-bold" style="color: black;">Go to market</div>
-    </div>
-        
-    <div class="task-label" style="min-width:80px">Priority
-        <div class="task-name" style ="color:gold;">Medium</div>
-    </div>
+                        <div class="task-label" style="min-width:80px">Priority
+                            <div class="task-name" style="color: green;">Low</div>
+                        </div>
 
-    <span class="badge-status me-auto">In progress</span>
+                        <span class="badge-status me-auto">Done</span>
 
-    <button class="btn btn-warning" title="Edit">Sửa</button>
-    <button class="btn btn-danger" title="Delete">Xóa</button>
-</div>
+                        <button class="btn btn-warning" title="Edit">Sửa</button>
+                        <button class="btn btn-danger" title="Delete">Xóa</button>
+                    </div>
+                    <div class="task-item d-flex align-items-center gap-3">
+                        <div class="task-label" style="min-width:140px">Task
+                            <div class="task-name fw-bold" style="color: black;">Go to market</div>
+                        </div>
+
+                        <div class="task-label" style="min-width:80px">Priority
+                            <div class="task-name" style="color:gold;">Medium</div>
+                        </div>
+
+                        <span class="badge-status me-auto">In progress</span>
+
+                        <button class="btn btn-warning" title="Edit">Sửa</button>
+                        <button class="btn btn-danger" title="Delete">Xóa</button>
+                    </div>
 
                 </div>
 
             </div>
         </div>
 
-        <!-- FORM THÊM TASK (ẩn mặc định) -->
+        <!-- FORM THÊM TASK -->
         <div class="card shadow-sm mt-3" id="formCard" style="display:none;">
             <div class="card-body">
 
@@ -96,20 +96,26 @@
                     <div class="mb-3">
                         <label class="form-label fw-semibold">Priority</label>
                         <div class="d-flex gap-2">
-                            <button type="button" class="btn btn-sm btn-priority" style="color: red; background-color: white; border-color: red;" id="btnHigh" >High</button>
-                            <button type="button" class="btn btn-sm btn-priority" style="color: gold; background-color: white; border-color: gold;" id="btnMedium">Medium</button>
-                            <button type="button" class="btn btn-sm btn-priority" style="color: green; background-color: white; border-color: green;" id="btnLow">Low</button>
+                            <button type="button" class="btn btn-sm btn-priority"
+                                style="color: red; background-color: white; border-color: red;"
+                                id="btnHigh">High</button>
+                            <button type="button" class="btn btn-sm btn-priority"
+                                style="color: gold; background-color: white; border-color: gold;"
+                                id="btnMedium">Medium</button>
+                            <button type="button" class="btn btn-sm btn-priority"
+                                style="color: green; background-color: white; border-color: green;"
+                                id="btnLow">Low</button>
                         </div>
                     </div>
 
                     <div class="text-end">
-                        <button type="submit" class="btn btn-dark btn-sm px-4" style="background-color: gray;">Add</button>
+                        <button type="submit" class="btn btn-dark btn-sm px-4"
+                            style="background-color: gray;">Add</button>
                     </div>
                 </form>
 
             </div>
         </div>
-
     </div>
 
     <script src="js/bootstrap.bundle.js" defer></script>
