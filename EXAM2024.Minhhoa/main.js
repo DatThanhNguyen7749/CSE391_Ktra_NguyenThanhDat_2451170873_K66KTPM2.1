@@ -23,7 +23,7 @@ document.getElementById("formTask").onsubmit = function(e) {
         errorDiv.style.display = "block";
         return;
     }
-
+ 
     // Dữ liệu hợp lệ, ẩn lỗi
     errorDiv.style.display = "none";
 
