@@ -3,7 +3,6 @@ document.getElementById("btnMoForm").onclick = function() {
     document.getElementById("formCard").style.display = "block";
     document.getElementById("formTask").reset();
     document.getElementById("errorTask").style.display = "none";
-    chonPriority("High");
 };
 
 document.getElementById("btnDongForm").onclick = function() {
